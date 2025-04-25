@@ -18,6 +18,12 @@ pip install beautifulsoup4
 ```bash
 CREATE EXTENSION IF NOT EXISTS plpython3u;
 ```
+or
+
+```bash
+SELECT * FROM pg_available_extensions WHERE name = 'plpython3u';
+```
+
  2. Create the function by running the SQL script:
 
 ```bash
